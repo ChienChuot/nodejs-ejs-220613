@@ -1,7 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+  <meta charset="UTF-8">
   <% include partials/head%>
+  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+
 <body>
+  <% include partials/header%>
+
   <div class="container">
     <form>
       <!-- Email input -->
@@ -40,26 +47,31 @@
         <p>Not a member? <a href="#!">Register</a></p>
         <p>or sign up with:</p>
         <button type="button" class="btn btn-link btn-floating mx-1">
-          <i class="fab fa-facebook-f"></i>
+          <i class="fa-brands fa-facebook"></i>
         </button>
     
         <button type="button" class="btn btn-link btn-floating mx-1">
-          <i class="fab fa-google"></i>
+          <i class="fa-brands fa-google"></i>
         </button>
     
         <button type="button" class="btn btn-link btn-floating mx-1">
-          <i class="fab fa-twitter"></i>
+          <i class="fa-brands fa-github"></i>
         </button>
-    
-        <button type="button" class="btn btn-link btn-floating mx-1">
-          <i class="fab fa-github"></i>
-        </button>
+
+        
       </div>
     </form>
 
   </div>
 
+  
+
+
+
   <% include partials/footer%>
+
+
+  
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script src="http://getbootstrap.com/dist/js/bootstrap.min.js"></script>
