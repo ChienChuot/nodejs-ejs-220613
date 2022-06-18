@@ -29,9 +29,14 @@ router.get('/login', function(req, res, next) {
   res.render('login', { title: 'login page', name: 'ChienChuot' });
 });
 
-/* GET login page. */
+/* GET sign page. */
 router.get('/sign-up', function(req, res, next) {
-  res.render('sign-up', { title: 'login page', name: 'ChienChuot' });
+  res.render('sign-up', { title: 'sign page', name: 'ChienChuot' });
+});
+
+/* GET oldused page. */
+router.get('/oldused', function(req, res, next) {
+  res.render('oldused', { title: 'oldused page', name: 'ChienChuot' });
 });
 
 
